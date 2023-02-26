@@ -3,7 +3,7 @@ import { useBrowserVisibleTask$ } from '@builder.io/qwik';
 export default component$(() => {
 
     useBrowserVisibleTask$(()=>{
-        window.location.replace("tviewchart.dongwontuna.net");
+        window.location.replace("https://tviewchart.dongwontuna.net");
     })
   return (<></>)
 });
